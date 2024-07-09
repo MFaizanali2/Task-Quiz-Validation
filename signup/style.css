@@ -13,5 +13,27 @@ body{
     justify-content: center;
 }
 #quiz{
-    
+    padding: 10px 30%;
+    /* width: 100px;
+    height: 100px; */
+}
+#quiz h3{
+    color: gray;
+}
+.col label{
+    padding: 10px;
+}
+.col input{
+    width: 70%;
+}
+#file{
+    width: 280px;
+}
+#btn{
+    padding: 10px 30px;
+    font-weight: bolder;
+    background-color: yellow;
+    border: none;
+    font-size: 18px;
+    color: gray;
 }
