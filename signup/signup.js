@@ -4,7 +4,7 @@ console.log(formfield)
 const [Username, UserEmail, UserPassword] = formfield;
 
 console.log(Username, UserEmail, UserPassword)
-
+// let arraydata = [];
 
 function signup(){
     
@@ -15,9 +15,12 @@ function signup(){
         let obj = {
             user : Username.value,
             signupEmail : UserEmail.value,
-            signupPassword : UserPassword.value
+            signupPassword : UserPassword.value,
         }
-    // console.log(Username.value, UserEmail.value, UserPassword.value)
+        localStorage.setItem("userData", JSON.stringify(obj))
+        // arraydata.push(obj)
+        // console.log(arraydata)
+    console.log(Username.value, UserEmail.value, UserPassword.value)
     }else{
         alert("pillay")
     }
