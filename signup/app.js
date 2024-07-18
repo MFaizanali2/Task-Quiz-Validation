@@ -9,8 +9,8 @@ console.log(Username, UserEmail, UserPassword)
 
 
 
-function login(){
+function signup(){
     // console.log("hello world")
-    // window.location.href = '../Log-in/index.html'
+    window.location.href = '../Log-in/index.html'
 
 }
