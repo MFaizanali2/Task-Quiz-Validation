@@ -27,3 +27,20 @@ function signup(){
         alert("pillay")
     }
 }
+
+
+    let image = document.getElementById("pic");
+        console.log(image)
+    let showimage = document.querySelector("img")
+    const uploadimage = () =>{
+        console.log(image.value);
+    let img = image.files[0];
+    let fileRead = new FileReader();
+ 
+    fileRead.onload = () =>{
+        showimage.src = fileRead.result;
+        console.log(fileRead.result)
+    }
+    fileRead.readAsDataURL(img)
+    console.log(img)
+}
