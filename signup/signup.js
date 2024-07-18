@@ -6,11 +6,10 @@ const [Username, UserEmail, UserPassword] = formfield;
 console.log(Username, UserEmail, UserPassword)
 
 
-
-
-
 function signup(){
-    // console.log("hello world")
-    window.location.href = '../Log-in/index.html'
+
+    // window.location.href = '../Login/login.html'
+    console.log(Username.value, UserEmail.value, UserPassword.value)
+    window.location.href = "../Login/login.html";
 
 }
