@@ -18,6 +18,8 @@ function signup(){
             signupPassword : UserPassword.value,
         }
         localStorage.setItem("userData", JSON.stringify(obj))
+        // console.log(window.location.href = "../Login/login.html");
+        window.location.href = "../Login/login.html";
         // arraydata.push(obj)
         // console.log(arraydata)
     console.log(Username.value, UserEmail.value, UserPassword.value)
