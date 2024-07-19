@@ -4,7 +4,7 @@ let Usename = document.getElementById("name")
 const showdata = () =>{
     const {user} = data
     const {pic} = data
-    Usename.innerHTML = `${user}  `
+    Usename.innerHTML = `${user} ${pic} `
 }
 showdata();
 
