@@ -8,7 +8,7 @@ let data = JSON.parse(localStorage.getItem("userData"))
 const login = () => {
      
     event.preventDefault();
-    [UserEmail, UserPassword] = data;
+    const {UserEmail, UserPassword} = data;
 
     if(UserEmail === loginEmail.value && UserPassword === loginPassword.value){
         alert("login")
