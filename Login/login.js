@@ -5,7 +5,7 @@ const [loginEmail, loginPassword] = formfield;
 
 
 const login = () => {
-    
+     
     console.log(loginEmail.value , loginPassword.value)
 
 }
