@@ -1,4 +1,14 @@
+let data = JSON.parse(localStorage.getItem("userData"))
+let Usename = document.getElementById("name")
+
+const showdata = () =>{
+    const {user} = data
+    const {pic} = data
+    Usename.innerHTML = `${user}  `
+}
+showdata();
 
 const logout = () =>{
-    console.log("hello")
+    // console.log("hello")
+    window.location.href = "../signup/signup.html"
 }
