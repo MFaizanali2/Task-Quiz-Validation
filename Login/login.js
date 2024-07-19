@@ -7,10 +7,18 @@ let data = JSON.parse(localStorage.getItem("userData"))
 
 const login = () => {
      
-    [UserEmail, UserPassword] = data;
     event.preventDefault();
-    console.log(loginEmail.value , loginPassword.value)
-    console.log(data)
+    [UserEmail, UserPassword] = data;
+
+    if(UserEmail === loginEmail.value && UserPassword === loginPassword.value){
+        alert("login")
+    }else{
+        alert("invalid")
+    }
+
+
+    // console.log(loginEmail.value , loginPassword.value)
+    // console.log(data)
     window.location.href = "../dashboard/dash.html";
 
 }
