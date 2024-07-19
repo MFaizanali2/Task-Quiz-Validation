@@ -30,7 +30,7 @@ function signup(){
 }
 
 
-    let image = document.getElementById("pic");
+    let image = document.getElementById("Userpic");
         console.log(image)
     let showimage = document.querySelector("img")
     const uploadimage = () =>{
