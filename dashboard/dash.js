@@ -2,8 +2,8 @@ let data = JSON.parse(localStorage.getItem("userData"))
 let Usename = document.getElementById("name")
 
 const showdata = () =>{
-    const {user} = data
-    const {pic} = data
+    const {user, pic} = data
+    
     Usename.innerHTML = `${user} ${pic} `
 }
 showdata();
