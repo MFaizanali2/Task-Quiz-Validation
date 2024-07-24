@@ -5,7 +5,8 @@ let images = document.getElementById("img")
 const showdata = () =>{
     const {user, pic} = data
     
-    Usename.innerHTML = `${user} ${pic} `
+    Usename.innerHTML = user;
+    images.src = pic;
 }
 showdata();
 
