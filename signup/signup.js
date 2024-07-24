@@ -36,12 +36,12 @@ function signup(){
     const uploadimage = () =>{
         console.log(Userpic.value);
     let img = Userpic.files[0];
-    let fileRead = new FileReader();
+    // let fileRead = new FileReader();
  
-    fileRead.onload = () =>{
-        showimage.src = fileRead.result;
-        console.log(fileRead.result)
-    }
-    fileRead.readAsDataURL(img)
-    console.log(img)
+    // fileRead.onload = () =>{
+    //     showimage.src = fileRead.result;
+    //     console.log(fileRead.result)
+    // }
+    // fileRead.readAsDataURL(img)
+    // console.log(img)
 }
