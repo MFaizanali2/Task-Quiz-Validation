@@ -41,8 +41,8 @@ function signup(){
     let fileRead = new FileReader();
  
     fileRead.onload = () =>{
-        // showimage.src = fileRead.result;
-        console.log(fileRead.result)
+        imgUrl = fileRead.result;
+        // console.log(fileRead.result)
     }
     fileRead.readAsDataURL(img)
     console.log(img)
