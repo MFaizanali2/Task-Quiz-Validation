@@ -2,6 +2,7 @@ let formfield = document.querySelectorAll("form input")
 
 console.log(formfield)
 const [Username, UserEmail, UserPassword, Userpic] = formfield;
+let imgUrl;
 
 console.log(Username, UserEmail, UserPassword)
 // let arraydata = [];
@@ -40,7 +41,7 @@ function signup(){
     let fileRead = new FileReader();
  
     fileRead.onload = () =>{
-        showimage.src = fileRead.result;
+        // showimage.src = fileRead.result;
         console.log(fileRead.result)
     }
     fileRead.readAsDataURL(img)
