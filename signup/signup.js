@@ -17,7 +17,7 @@ function signup(){
             user : Username.value,
             signupEmail : UserEmail.value,
             signupPassword : UserPassword.value,
-            pic : Userpic.value,
+            pic : imgUrl,
         }
         localStorage.setItem("userData", JSON.stringify(obj))
         // console.log(window.location.href = "../Login/login.html");
