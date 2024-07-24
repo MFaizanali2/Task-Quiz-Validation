@@ -34,8 +34,9 @@ function signup(){
     //     console.log(image)
     // let showimage = document.querySelector("img")
     const uploadimage = () =>{
-        console.log(Userpic.value);
-    let img = Userpic.files[0];
+        let img = Userpic.files[0];
+        console.log(Userpic, img);
+
     // let fileRead = new FileReader();
  
     // fileRead.onload = () =>{
