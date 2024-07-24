@@ -30,12 +30,12 @@ function signup(){
 }
 
 
-    let image = document.getElementById("Userpic");
-        console.log(image)
-    let showimage = document.querySelector("img")
+    // let image = document.getElementById("Userpic");
+    //     console.log(image)
+    // let showimage = document.querySelector("img")
     const uploadimage = () =>{
-        console.log(image.value);
-    let img = image.files[0];
+        console.log(Userpic.value);
+    let img = Userpic.files[0];
     let fileRead = new FileReader();
  
     fileRead.onload = () =>{
