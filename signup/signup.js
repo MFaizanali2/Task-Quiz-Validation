@@ -35,14 +35,14 @@ function signup(){
     // let showimage = document.querySelector("img")
     const uploadimage = () =>{
         let img = Userpic.files[0];
-        console.log(Userpic, img);
+        // console.log(Userpic, img);
 
-    // let fileRead = new FileReader();
+    let fileRead = new FileReader();
  
-    // fileRead.onload = () =>{
-    //     showimage.src = fileRead.result;
-    //     console.log(fileRead.result)
-    // }
-    // fileRead.readAsDataURL(img)
-    // console.log(img)
+    fileRead.onload = () =>{
+        showimage.src = fileRead.result;
+        console.log(fileRead.result)
+    }
+    fileRead.readAsDataURL(img)
+    console.log(img)
 }
