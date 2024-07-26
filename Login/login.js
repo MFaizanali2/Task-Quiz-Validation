@@ -1,4 +1,17 @@
+let box = document.querySelector(".box");
+
+
+
+
+
+
+
+
+
+
+
 let formfield = document.querySelectorAll("form input")
+
 
 console.log(formfield)
 const [loginEmail, loginPassword] = formfield;
