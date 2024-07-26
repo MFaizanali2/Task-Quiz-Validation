@@ -1,39 +1,9 @@
 let box = document.querySelector(".box");
+// let log = document.getElementById("log");
+// log.style.width = `700px`
 
-box.innerHTML = `
-<div class="container">
-
-        <div class="row">
-
-            <div class="col">
-                <img src="./images/hat.png" alt="Hat Image" id="hat">
-            </div>
-            <div class="col">
-                <div id="quiz">
-                    <img src="../signup/images/QuizGrad.png" alt="logo image" id="quiz1">
-                </div>
-                <h5>If you're signed-up now login to continue</h5>
-                <form onsubmit="login();">
-                    <div class="mb-3">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="loginEmail" placeholder="Email and phone">
-                    </div>
-                    <div class="mb-3">
-                        <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="loginPassword"
-                            placeholder="Enter your Password">
-                    </div>
-                    <div class="mb-3">
-
-                        <div id="bottom">
-                            <button type="submit" id="btn" class="btn btn-primary" onclick="login();">Log In</button>
-                        </div>
-                </form>
-            </div>
-
-        </div>
-
-    </div>`
+// box.innerHTML = `
+// `
 
 
 
