@@ -7,6 +7,7 @@ const showdata = () =>{
     
     Usename.innerHTML = user;
     images.src = pic;
+    images.style.width = "50px"
 }
 showdata();
 
